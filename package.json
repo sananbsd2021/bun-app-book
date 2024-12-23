@@ -6,7 +6,11 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@elysiajs/swagger": "^1.1.6",
+    "bcrypt": "^5.1.1",
+    "better-sqlite3": "^11.7.0",
+    "elysia": "latest",
+    "jsonwebtoken": "^9.0.2"
   },
   "devDependencies": {
     "bun-types": "latest"

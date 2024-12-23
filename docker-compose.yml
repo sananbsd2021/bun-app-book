@@ -1,0 +1,6 @@
+version: '3' # กำหนด docker version
+services:
+  bun-server: # ตั้งชื่อ container (เหมือน --name)
+    build: . # ตำแหน่ง dockerfile
+    ports:
+      - "8000:8000" # map port ออกมา เหมือน -p ใน docker run 
